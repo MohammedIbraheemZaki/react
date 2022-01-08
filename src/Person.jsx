@@ -5,10 +5,10 @@ const Person = ({name, city, children, emmitHandle, id, index, nameChange, cityC
   const [over, setOver] = useState(false)
   const [isSeniorDev, setIsSeniorDev] = useState(false)
   const [title, setTitle] = useState('DevOps')
-  const handleOnClick = () => {
-    console.log('a7a');
-    setClick('ahln ya 3m')
-  }
+  // const handleOnClick = () => {
+  //   console.log('a7a');
+  //   setClick('ahln ya 3m')
+  // }
   const handleMouseOver = () => {
     setOver(true)
   }
