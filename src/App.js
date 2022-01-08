@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react/cjs/react.development';
+import { useState, useEffect } from 'react';
 import './App.css';
 import Person from './Person'
 import Developers from './Developers'
